@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  background-color: #0D2617;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-size: 30px;
+}
+
+#container {
+  background-color: #C9EDD3; 
+  /* display: inline-block; */
+  /*display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  /* width: 50%; */
+  border-radius: 5px;
+  padding: 2%;
+  width: 50%;
+  
+}
+
+#stopwatch {
+  font-family: 'Lato', sans-serif;
+}
+
+.buttons {
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 5px;
+  background-color: #2B8267;
+  border: 0;
+  color: white;
+  padding: 5px 10px;
+}
+
+.buttons:hover {
+  background-color: #D48E7D;
+}
+
+.buttons:active {
+  background-color: #9D3634;
+}
